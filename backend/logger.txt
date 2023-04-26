@@ -1,0 +1,32 @@
+16.4.2023, 18:27:11 	 Route / not exist
+-------------------------------
+16.4.2023, 18:27:11 	 Route /favicon.ico not exist
+-------------------------------
+19.4.2023, 0:03:34 	 Route /api/furniture not exist
+-------------------------------
+19.4.2023, 0:04:03 	 Route /api/furniture not exist
+-------------------------------
+19.4.2023, 0:04:03 	 Route /api/furniture not exist
+-------------------------------
+19.4.2023, 0:29:56 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DEFAULT,
+        'undefined',
+        'undefined',
+        'undefined',
+     ...' at line 2
+-------------------------------
+19.4.2023, 0:30:48 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DEFAULT,
+        'sofa',
+        '23*78*90',
+        '23*78*90',
+        '200...' at line 2
+-------------------------------
+21.4.2023, 0:52:45 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WERE F.furnitureTypeId = T.furniturType' at line 4
+-------------------------------
+21.4.2023, 9:40:49 	 Route /api/furnitur-type%0A not exist
+-------------------------------
+23.4.2023, 23:11:32 	 Route /ws not exist
+-------------------------------
+23.4.2023, 23:13:41 	 Route /ws not exist
+-------------------------------
+24.4.2023, 0:20:30 	 ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`ikea`.`furniture`, CONSTRAINT `furniture_ibfk_1` FOREIGN KEY (`furnitureTypeId`) REFERENCES `furnituretype` (`furnitureTypeId`))
+-------------------------------
