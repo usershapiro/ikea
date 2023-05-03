@@ -1,0 +1,34 @@
+.CardList {
+	
+
+}
+.CardList>.container {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+
+.CardList>.container:hover {
+    box-shadow: 10px 10px 10px 10px rgba(91,11,95,0.2);
+}
+
+.CardList {
+    font-family: Segoe Print;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+}
+
+.CardList>div {
+    text-align: center;
+}
+
+.CardList>.Container>h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: -25px;
+}
